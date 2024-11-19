@@ -28,13 +28,16 @@ Sistema de gestión de almacenes desarrollado en Java, utilizando Hibernate como
 - **Base de datos:** MySQL 🗄️
 - **Gestión de dependencias:** Maven 📦
 - **IDE recomendado:** IntelliJ IDEA 💻
+- **Patrón DAO**
+- **POO (Programación Orientada a Objetos)**
+- **SQL Avanzado**
 
 ---
 
 ## 📂 **Estructura del proyecto**
 
 
-```plaintext
+```
 gestion_almacen/
 ├── .idea/                         # Archivos de configuración de IntelliJ IDEA
 ├── src/
@@ -57,7 +60,7 @@ gestion_almacen/
 ├── gestion_almacen.iml            # Archivo de configuración del proyecto en IntelliJ IDEA
 ├── pom.xml                        # Archivo de configuración de Maven
 
-
+```
 
 # ⚙️ Instalación y configuración
 
@@ -75,12 +78,17 @@ gestion_almacen/
 ```bash
 git clone https://github.com/carlosDAM2905/control-almacen.git
 
+```
+
+
 ## 2. Configura la base de datos:
 
 Crea una base de datos llamada `control_almacen`:
 
 ```sql
 CREATE DATABASE control_almacen;
+
+```
 
 ## 3. Configura las credenciales:
 
@@ -90,7 +98,7 @@ Edita el archivo `hibernate.cfg.xml` y ajusta las credenciales de la base de dat
 <property name="hibernate.connection.url">jdbc:mysql://localhost:3306/control_almacen</property>
 <property name="hibernate.connection.username">root</property>
 <property name="hibernate.connection.password">tu_contraseña</property>
-
+```
 ## 4. Ejecuta el proyecto:
 
 1. Abre el proyecto en **IntelliJ IDEA** o tu IDE favorito.
@@ -100,7 +108,7 @@ Edita el archivo `hibernate.cfg.xml` y ajusta las credenciales de la base de dat
 
 ## 🛠️ En desarrollo:
 
-- [ ] Implementar interfaz gráfica con JavaFX.
+- [ ] Implementar interfaz gráfica.
 - [ ] Generar reportes dinámicos.
 - [ ] Mejorar el manejo de errores y validaciones.
 
