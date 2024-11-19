@@ -44,3 +44,4 @@ src/main/resources/
 src/main/resources/hibernate.cfg.xml
 src/main/resources/application.properties
 src/main/resources/*.yml
+cfg.xml
