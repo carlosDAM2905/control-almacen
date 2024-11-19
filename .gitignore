@@ -1,13 +1,13 @@
+# Build y artefactos de Maven
 target/
 !.mvn/wrapper/maven-wrapper.jar
 !**/src/main/**/target/
 !**/src/test/**/target/
 
+# Configuraciones específicas de IDEs
+
 ### IntelliJ IDEA ###
-.idea/modules.xml
-.idea/jarRepositories.xml
-.idea/compiler.xml
-.idea/libraries/
+.idea/
 *.iws
 *.iml
 *.ipr
@@ -17,7 +17,7 @@ target/
 .classpath
 .factorypath
 .project
-.settings
+.settings/
 .springBeans
 .sts4-cache
 
@@ -28,18 +28,19 @@ target/
 /nbdist/
 /.nb-gradle/
 build/
-!**/src/main/**/build/
-!**/src/test/**/build/
 
 ### VS Code ###
 .vscode/
 
+# Archivos específicos del sistema operativo
 ### Mac OS ###
 .DS_Store
 
+# Archivos sensibles y configuración privada
 ### Sensitive configuration files ###
-# Ignorar archivos sensibles del paquete resources
+# Ignorar toda la carpeta resources
 src/main/resources/
+# Especificar los archivos sensibles dentro de resources
 src/main/resources/hibernate.cfg.xml
 src/main/resources/application.properties
 src/main/resources/*.yml
