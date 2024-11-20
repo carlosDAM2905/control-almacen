@@ -16,8 +16,9 @@ Sistema de gestión de almacenes desarrollado en Java, utilizando Hibernate como
 - 📦 **Gestión de productos**: Alta, modificación y eliminación de productos.
 - 📊 **Consultas de inventario**: Visualización de productos y ubicaciones.
 - 🔄 **En desarrollo**:
-  - Generación de reportes.
-  - Implementación de interfaz gráfica con JavaFX.
+ - Mejora e implementación de nuevas validaciones y manejo de excepciones.
+  - Generación de reportes y estadísticas.
+  - Implementación de interfaz gráfica.
 
 ---
 
