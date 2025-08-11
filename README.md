@@ -6,19 +6,30 @@
 
 > **Estado del proyecto:** 🚧 **EN CONSTRUCCIÓN** 🚧
 
-Sistema de gestión de almacenes desarrollado en Java, utilizando Hibernate como framework ORM y MySQL como base de datos. Este proyecto permite administrar empleados, productos y ubicaciones, además de realizar consultas sobre el inventario.
+Sistema de gestión de almacenes desarrollado en Java, utilizando Hibernate como framework ORM y MySQL como base de datos. Permite administrar empleados, productos y ubicaciones, así como realizar consultas sobre el inventario.  
+
+Actualmente se está planificando su **migración a AWS**, con el objetivo de integrar servicios como RDS, Lambda y S3 para mejorar la escalabilidad y disponibilidad.
 
 ---
 
-## 🌟 **Características**
+## 🌟 **Características actuales**
 
-- 📋 **Gestión de empleados**: Registro, actualización y eliminación de datos.
-- 📦 **Gestión de productos**: Alta, modificación y eliminación de productos.
-- 📊 **Consultas de inventario**: Visualización de productos y ubicaciones.
-- 🔄 **En desarrollo**:
- - Mejora e implementación de nuevas validaciones y manejo de excepciones.
-  - Generación de reportes y estadísticas.
-  - Implementación de interfaz gráfica.
+- 📋 **Gestión de empleados**: registro, actualización y eliminación.
+- 📦 **Gestión de productos**: alta, modificación y eliminación.
+- 📊 **Consultas de inventario**: visualización de productos y ubicaciones.
+
+---
+
+## 🚀 **Próximas mejoras**
+
+- Mejora e implementación de nuevas validaciones y manejo de excepciones.
+- Generación de reportes y estadísticas.
+- Implementación de interfaz gráfica (JavaFX o Swing).
+- Migración a **AWS**:
+  - **RDS MySQL** para la base de datos.
+  - **S3** para almacenamiento de documentos e imágenes.
+  - **Lambda** para ejecución de lógica sin servidor.
+  - **API Gateway** para exponer el backend.
 
 ---
 
@@ -34,6 +45,7 @@ Sistema de gestión de almacenes desarrollado en Java, utilizando Hibernate como
 - **SQL Avanzado**
 
 ---
+
 
 ## 📂 **Estructura del proyecto**
 
